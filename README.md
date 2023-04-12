@@ -1,0 +1,3 @@
+Add `url` parameter to [https://git.sebdoe.com/virtualwindow](https://git.sebdoe.com/virtualwindow) for any image URL, uncoded or encoded. It will automatically add a random string to the image source URL on each load so no need to worry about that, if using for webcams with autorefresh for example.
+
+Photo by <a href="https://unsplash.com/@slrncl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nicolas Solerieu</a> on <a href="https://unsplash.com/photos/4gRNmhGzYZE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> and modified to make transparent.
