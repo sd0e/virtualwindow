@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Window</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <img src="./window.png" class="window" alt="Window" />
+    <img alt="Your Image" id="customImage" class="customImage" />
+    <script defer>
+        document.getElementById('customImage').setAttribute('src', decodeURIComponent(new URLSearchParams(document.location.search).get('url') + '?' + (Math.random() + 1).toString(36).substring(4)));
+    </script>
+</body>
+</html>
